@@ -1,57 +1,69 @@
-# Solving Inventory Inefficiencies Using SQL
+# 📦 Intelligent Inventory Optimization with SQL & Live Dashboards
 
-A complete end-to-end data-driven solution for inventory analytics and decision support across a multi-store retail network. This project implements a normalized SQL schema, analytical views, and a live dashboard for real-time business insights.
-
----
-
-## 🚀 Live Dashboard
-
-Access the real-time web dashboard hosted separately:
-
-🔗 [UrbanCo Inventory Management Dashboard (Live)](https://adyasa2004.github.io/reimagined-octo-chainsaw/)
-*(Hosted on a different repo with frontend + JSON integration)*
+This project presents a full-stack data analytics solution designed to address inventory inefficiencies across a multi-location retail network. It leverages a normalized SQL schema for robust data management, insightful analytics through SQL views, and a responsive frontend dashboard for real-time performance tracking.
 
 ---
 
-## 🧠 Project Highlights
+## 🌐 Live Inventory Dashboard
 
-* **Normalized SQL Schema:** Includes `stores`, `products`, `inventory_data`, and `inventory_kpis` with composite primary keys and indexing.
-* **ETL via SQL:** Bulk import from raw CSV, transformation into normalized tables, data validation, and KPI generation.
-* **Analytics Layer:** Core SQL views like `vw_current_stock_levels`, `vw_reorder_analysis`, `vw_inventory_turnover`, `vw_abc_classification`, `vw_seasonal_analysis`.
-* **Dashboard Reports:** Executive-focused summary views such as `vw_executive_kpi_dashboard`, `vw_stockout_risk`, and category/store performance metrics.
-* **Live Visualization:** Real-time dashboard for key metrics and store-level insights.
+Explore the interactive, data-powered dashboard hosted separately here:
 
----
-
-## 📊 Sample Insights
-
-* Reorder alerts based on safety stock and lead time
-* Inventory turnover analysis across product categories
-* ABC classification of products for optimized stock prioritization
-* Seasonal demand forecasting with weather/event context
-* Stockout risk prediction by store and region
+🔗 [UrbanCo Inventory Intelligence Dashboard](https://adyasa2004.github.io/reimagined-octo-chainsaw/)  
+*(Built on a lightweight JS+JSON frontend for seamless visualization)*
 
 ---
 
-## 📄 Documentation
+## 🧩 System Components
 
-* **[SQL Documentation](./sql-documentation.docx)** — technical breakdown of schema, views, and queries
-* **[Executive Report](./Executive%20Report%20(Insights%20and%20Recommendations).docx)** — visual, business-oriented interpretation of outputs
-* **[ER Diagram](./ERD.pdf)** — visual map of database structure
-
----
-
-## 🛠 Technologies Used
-
-* MySQL 8+
-* SQL Views and Analytics
-* CSV export queries
-* Live Dashboard (Simple JS hosted separately)
+- **Relational SQL Schema** — Modular structure featuring `stores`, `products`, `inventory_data`, and KPI models, optimized via composite keys and indexes.
+- **End-to-End ETL in SQL** — Ingests raw CSVs, cleans and normalizes data, performs validation, and generates dynamic business KPIs.
+- **Analytics-Ready Views** — Strategic SQL views including:
+  - `vw_stock_levels_realtime`
+  - `vw_turnover_metrics`
+  - `vw_abc_segmentation`
+  - `vw_seasonal_trends`
+  - `vw_storewise_efficiency`
+- **Executive Dashboards** — Summarized strategic insights for decision-makers: alerts, ROI estimates, and category performance.
 
 ---
 
-## 📬 Feedback & Contributions
+## 🔍 Business Insights Delivered
 
-This project was developed as part of an academic analytics initiative. Feedback is welcome. For collaboration or suggestions, please open an issue.
+- Forecast-driven **reorder alerts** to avoid stockouts
+- Turnover heatmaps across SKUs and regions
+- ABC classification for targeted inventory strategies
+- **Seasonality modeling** with event/weather correlation
+- Critical alerting and risk prioritization
 
 ---
+
+## 📂 Project Resources
+
+- 📘 **[SQL Schema & View Documentation](./sql-documentation.docx)** — Full breakdown of tables, relationships, and queries  
+- 📊 **[Executive Summary Report](./Executive%20Report%20(Insights%20and%20Recommendations).docx)** — Non-technical stakeholder-facing presentation  
+- 🗺️ **[Entity Relationship Diagram](./ERD.pdf)** — Visual layout of database architecture
+
+---
+
+## 🛠️ Tech Stack
+
+- **Database:** MySQL 8.0+
+- **Query Layer:** Analytical SQL (Views, Joins, Aggregates)
+- **Frontend:** HTML/CSS + Chart.js
+- **Data Exchange:** JSON-based interface
+
+---
+
+## 👤 Ownership & Usage
+
+This project is a self-initiated academic and portfolio showcase by Adyasa Mohapatra.  
+For review, learning, or non-commercial referencing only. Please contact before reuse.
+
+---
+
+## 💡 Want to Collaborate?
+
+Open to feedback and future development! For suggestions, improvements, or academic discussion, feel free to raise an issue or connect directly.
+
+Connect at m.adyasa@iitg.ac.in 
+
