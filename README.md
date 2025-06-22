@@ -8,7 +8,7 @@ A complete end-to-end data-driven solution for inventory analytics and decision 
 
 Access the real-time web dashboard hosted separately:
 
-🔗 [UrbanCo Inventory Management Dashboard (Live)]([https://adyasa2004.github.io/reimagined-octo-chainsaw/])
+🔗 [UrbanCo Inventory Management Dashboard (Live)](https://adyasa2004.github.io/reimagined-octo-chainsaw/)
 *(Hosted on a different repo with frontend + JSON integration)*
 
 ---
