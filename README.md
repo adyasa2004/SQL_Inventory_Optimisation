@@ -10,7 +10,9 @@ Explore the interactive, data-powered dashboard hosted separately here:
 
 🔗 [UrbanCo Inventory Intelligence Dashboard](https://adyasa2004.github.io/reimagined-octo-chainsaw/)  
 *(Built on a lightweight JS+JSON frontend for seamless visualization)*
-
+![Live App Screenshot](ss1.png)
+![Live App Screenshot](ss2.png)
+![Live App Screenshot](ss3.png)
 ---
 
 ## 🧩 System Components
